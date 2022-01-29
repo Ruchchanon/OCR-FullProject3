@@ -1,0 +1,92 @@
+[data-theme='compact'] .ant-advanced-search-form,
+.ant-advanced-search-form {
+  padding: 24px;
+  background: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+}
+
+[data-theme='compact'] .ant-advanced-search-form .ant-form-item,
+.ant-advanced-search-form .ant-form-item {
+  display: flex;
+}
+
+[data-theme='compact'] .ant-advanced-search-form .ant-form-item-control-wrapper,
+.ant-advanced-search-form .ant-form-item-control-wrapper {
+  flex: 1;
+}
+
+
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --midnight-blue: rgba(16, 69, 122, 1);
+  --bon-jour : rgba(224, 224, 224, 1);
+  --white: rgba(255, 255, 255, 1);
+
+  --font-size-m: 20px;
+  --font-size-l: 26px;
+  --font-size-xl: 36px;
+
+  --font-family-db-heavent-bold: "DB Heavent-Bold";
+  --font-family-db-heavent-regular: "DB Heavent-Regular";
+}
+
+
+
+
+
+.button-field-download {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  background: #FFFFFF;
+  border: 1px solid #10457A;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.button-icon-download {
+  align-self: center;
+}
+
+
+.button-text-download {
+
+  
+  font-family: DB Heavent-Regular;
+  font-style: normal;
+  font-weight: normal;
+  
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #10457A;
+}
+
+
+@font-face{
+  font-family: "DB Heavent-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/DBHeavent-Regular")
+  format("truetype");
+}
+
+@font-face {
+  font-family: "DB Heavent-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.animaapp.com/DBHeavent-Bold")
+  format("truetype");
+}
+
+.container-fluid{
+  position: relative;
+  left: 50px;
+}
+.upload-table{
+  width: 1160px;
+}
